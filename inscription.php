@@ -9,7 +9,7 @@
     <body>
         <div class="container">
             <!-- zone de connexion -->
-            <h2 class="active"> <a href="index.html">Sign in</a> </h2>
+            <h2 class="active"> <a href="index.php">Sign in</a> </h2>
 
 			<h2 class="nonactive">Sign up</h2>
 
@@ -29,14 +29,14 @@
                 <br>
 
                 <label><b>Veuillez incrire votre adresse mail</b></label>
-                <input type="email" name="mail" required>
+                <input type="text" name="mail" required>
                 <br>
 
                 <label><b>Veuillez inscrire votre mot de passe</b></label>
                 <input type="password" name="password" minlength="8" required>
                 <br>
                 <br>
-                <button class='submit'>ENTRER</button>
+                <button class='submit' type="submit" name="submit">ENTRER</button>
             </form>
         </div>
     </body>

@@ -10,13 +10,15 @@ if(isset($_POST["submit"])){
     $pwd = $_POST["password"];
 
     //Instanciation de la classe SignupContr class
-    include "../classes/signup.classes.php"
-    include "../classes/signup-contr.classes.php"
+    include "../classes/dbh.classes.php";
+    include "../classes/signup.classes.php";
+    include "../classes/signup-contr.classes.php";
     $signup = new SignupContr($username, $nom, $prenom, $mail, $pwd);
 
     //Gestion des erreurs
 
-
+    $signup->signupUser();
 
     //Revenir à la page d'acceuil
+    header("location: ../index.php?error=none");
 }

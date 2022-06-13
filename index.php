@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,7 +14,7 @@
             <!-- zone de connexion -->
 				<h2 class="active"> Sign in </h2>
 
-				<h2 class="nonactive"><a href="inscription.html">Sign up</a> </h2>
+				<h2 class="nonactive"><a href="inscription.php">Sign up</a> </h2>
             
             <form action="includes/login.inc.php" method="POST" class="form">
                 <h1>Connexion</h1>
@@ -26,7 +29,7 @@
                 <input type="password" placeholder="Entrer le mot de passe" name="password" required><br>
 				<br>
 				<br>
-                <button class="button-btn">CONNEXION</button> 
+                <button class="button-btn" name="submit" type ="submit">CONNEXION</button> 
             </form>
     </div>
     </body>

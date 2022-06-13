@@ -1,0 +1,101 @@
+.header {
+    overflow: hidden;
+    background-color: #add981;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Logo de mon header*/
+  .header img.logo {
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  /* Animation du button home */
+  .header a:hover {
+    background-color: lightyellow;
+    color: black;
+  }
+  
+
+  .header a.active {
+    background-color: dodgerblue;
+    color: beige;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+/*Footer*/
+footer {
+    display: fle0x;
+    align-items: center;
+    margin: 40px 100px;
+    justify-content: space-between;
+    font-weight: 600px;
+}
+
+footer a, cgv {
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+footer p {
+    float: left;
+}
+
+/*Articles du blog */
+.articles {
+    margin-top: 30px;
+}
+
+.articles .article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/*Regle les images de couverture de mes articles*/
+.articles .article .left img {
+    height: 300px;
+    width: 500px;
+}
+
+/*Permet d'ajuster la taille entre les deux blocs*/
+.articles .article .right {
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+/*Modifie la couleur de la date*/
+.articles .article .right p.date {
+    color: #7f7e7e;
+}
+
+.articles .article .right p.description {
+    color: #7f7e7e;
+}

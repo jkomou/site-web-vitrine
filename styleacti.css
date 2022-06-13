@@ -1,0 +1,96 @@
+.header {
+    overflow: hidden;
+    background-color: #add981;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Logo de mon header*/
+  .header img.logo {
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  /* Animation du button home */
+  .header a:hover {
+    background-color: lightyellow;
+    color: black;
+  }
+  
+
+  .header a.active {
+    background-color: dodgerblue;
+    color: beige;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+/*Footer*/
+footer {
+    display: fle0x;
+    align-items: center;
+    margin: 40px 100px;
+    justify-content: space-between;
+    font-weight: 600px;
+}
+
+footer a, cgv {
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+footer p {
+    float: left;
+}
+
+section {
+    height: 100%;
+    margin: 0;
+    padding: 50px 200px 50px 200px;
+    width: 100%;
+}
+
+section {
+    display: table;
+}
+
+.my-block {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+article {
+    padding-top: 20px;
+}
+
+.para1::first-letter {
+    color:#add981;
+    font-size: 300%;
+    font-weight: bold;
+}  
