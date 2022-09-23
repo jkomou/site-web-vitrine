@@ -9,4 +9,8 @@ Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant 
 En 2009, les deux géants pharmaceutiques ont uni leurs forces pour créer un leader de ce secteur industriel. 
 L'entité Galaxy Swiss Bourdin Europe a établi son siège administratif à Paris. Le siège social de la multinationale est situé à Philadelphie, Pennsylvanie, aux Etats-Unis.
 
-Le but de cette appli était de faciliter le quotidien des visiteurs médicaux, en leur proposant une application qui va aider leur quotidien.
+Besoin de l'entreprise :
+Le laboratoire recherche des développeurs full-stack, pour créer un nouveau site web afin de proposer une nouvelle interface graphique et amener différents solutions afin de mieux répondre aux exigences de l’entreprise.
+
+
+Le but de cette appli était de créer un site web vitrine, qui va permettre de promouvoir le laboratoire.
